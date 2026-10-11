@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets
+.env
+**/.env
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+food20dataset/
+my_images/
+*.db
