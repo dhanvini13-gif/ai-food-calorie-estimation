@@ -56,9 +56,10 @@ class AccountRequest(BaseModel):
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "https://ai-food-calorie-estimation.vercel.app",
+    "https://ai-food-calorie-estimation.vercel.app",
+    "https://ai-food-calorie-estimation-git-main-food-cal.vercel.app",
+    "https://ai-food-calorie-estimation-db24qe1p8-food-cal.vercel.app",
+    "http://localhost:5173",
     ],
     allow_credentials=True,
     allow_methods=["*"],
